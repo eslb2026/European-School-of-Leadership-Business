@@ -1,0 +1,1958 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Європейська Школа Лідерства та Бізнесу | ESLB Мукачево</title>
+<meta name="description" content="Європейська Школа Лідерства та Бізнесу в Мукачеві. Лідерство, фінансова грамотність, психологія, профорієнтація та творчий розвиток для дітей і підлітків." />
+
+<meta name="keywords" content="ESLB, Мукачево, школа лідерства, бізнес школа, профорієнтація, курси для дітей, розвиток підлітків">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Європейська Школа Лідерства та Бізнесу | ESLB Мукачево">
+<meta property="og:description" content="Європейська Школа Лідерства та Бізнесу в Мукачеві. Лідерство, фінансова грамотність, психологія, профорієнтація та творчий розвиток для дітей і підлітків.">
+
+<meta property="og:image" content="https://i.postimg.cc/3JwcczsT/1-s.png">
+
+<meta property="og:url" content="https://ВАШ-ДОМЕН">
+
+<meta property="og:site_name" content="ESLB">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Європейська Школа Лідерства та Бізнесу | ESLB Мукачево">
+<meta name="twitter:description" content="Європейська Школа Лідерства та Бізнесу в Мукачеві. Лідерство, фінансова грамотність, психологія, профорієнтація та творчий розвиток для дітей і підлітків.">
+<meta name="twitter:image" content="https://i.postimg.cc/3JwcczsT/1-s.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Європейська Школа Лідерства та Бізнесу | ESLB</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+<style>
+
+:root{
+--blue:#203480;
+--yellow:#FEBF00;
+--white:#FFFFFF;
+--light:#EFF0FC;
+--dark:#10152f;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Montserrat',sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:white;
+overflow-x:hidden;
+}
+
+body::-webkit-scrollbar{
+width:10px;
+}
+
+body::-webkit-scrollbar-thumb{
+background:#203480;
+border-radius:20px;
+}
+
+/* PRELOADER */
+
+.preloader{
+position:fixed;
+inset:0;
+background:white;
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:99999;
+}
+
+.loader-circle{
+width:90px;
+height:90px;
+border:5px solid #EFF0FC;
+border-top:5px solid #203480;
+border-radius:50%;
+animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+100%{
+transform:rotate(360deg);
+}
+}
+
+/* HEADER */
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:90px;
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+
+padding:0 7%;
+
+background:rgba(255,255,255,.92);
+
+backdrop-filter:blur(18px);
+
+z-index:999;
+
+transition:.4s;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo img{
+height:65px;
+}
+
+.logo-text{
+font-size:14px;
+font-weight:700;
+color:var(--blue);
+line-height:1.2;
+}
+
+nav{
+display:flex;
+gap:35px;
+}
+
+nav a{
+text-decoration:none;
+font-weight:600;
+color:var(--blue);
+transition:.3s;
+}
+
+nav a:hover{
+color:var(--yellow);
+}
+
+.register-btn{
+
+background:var(--yellow);
+padding:15px 30px;
+border-radius:100px;
+text-decoration:none;
+font-weight:700;
+color:#111;
+
+transition:.4s;
+
+box-shadow:
+0 10px 25px rgba(254,191,0,.4);
+
+}
+
+.register-btn:hover{
+transform:translateY(-4px);
+}
+
+/* HERO */
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+padding:140px 7% 100px;
+
+position:relative;
+
+overflow:hidden;
+
+background:
+linear-gradient(
+135deg,
+#EFF0FC 0%,
+#ffffff 50%,
+#EFF0FC 100%
+);
+
+}
+
+/* floating circles */
+
+.circle{
+position:absolute;
+border-radius:50%;
+filter:blur(50px);
+}
+
+.circle1{
+width:450px;
+height:450px;
+background:rgba(32,52,128,.12);
+top:-120px;
+left:-120px;
+}
+
+.circle2{
+width:350px;
+height:350px;
+background:rgba(254,191,0,.18);
+bottom:-120px;
+right:-100px;
+}
+
+.circle3{
+width:250px;
+height:250px;
+background:rgba(32,52,128,.08);
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+.hero-grid{
+
+display:grid;
+grid-template-columns:1.1fr 1fr;
+
+gap:80px;
+
+align-items:center;
+
+width:100%;
+
+max-width:1400px;
+}
+
+.hero-left{
+position:relative;
+z-index:2;
+}
+
+.badge{
+
+display:inline-flex;
+align-items:center;
+gap:10px;
+
+padding:14px 25px;
+
+border-radius:100px;
+
+background:white;
+
+font-size:14px;
+font-weight:700;
+
+color:var(--blue);
+
+box-shadow:
+0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.badge::before{
+content:"★";
+color:var(--yellow);
+}
+
+.hero h1{
+
+font-size:72px;
+font-weight:900;
+line-height:1.05;
+
+color:var(--blue);
+
+margin:25px 0;
+}
+
+.hero p{
+
+font-size:20px;
+line-height:1.8;
+
+max-width:700px;
+
+color:#555;
+}
+
+.hero-buttons{
+
+display:flex;
+gap:20px;
+
+margin-top:40px;
+}
+
+.btn-primary{
+
+background:var(--blue);
+color:white;
+
+padding:18px 35px;
+
+border-radius:100px;
+
+text-decoration:none;
+
+font-weight:700;
+
+transition:.4s;
+
+box-shadow:
+0 15px 35px rgba(32,52,128,.25);
+
+}
+
+.btn-primary:hover{
+transform:translateY(-5px);
+}
+
+.btn-secondary{
+
+background:white;
+
+padding:18px 35px;
+
+border-radius:100px;
+
+text-decoration:none;
+
+font-weight:700;
+
+color:var(--blue);
+
+border:2px solid var(--blue);
+
+transition:.4s;
+}
+
+.btn-secondary:hover{
+
+background:var(--blue);
+color:white;
+
+}
+
+.hero-right{
+position:relative;
+z-index:2;
+}
+
+.hero-image{
+
+position:relative;
+
+border-radius:40px;
+
+overflow:hidden;
+
+box-shadow:
+0 40px 80px rgba(32,52,128,.18);
+
+}
+
+.hero-image img{
+
+width:100%;
+display:block;
+
+}
+
+/* floating stickers */
+
+.sticker{
+
+position:absolute;
+
+background:white;
+
+border-radius:25px;
+
+padding:20px;
+
+box-shadow:
+0 20px 40px rgba(0,0,0,.12);
+
+font-weight:700;
+
+}
+
+.sticker1{
+top:10%;
+left:-50px;
+}
+
+.sticker2{
+bottom:15%;
+right:-40px;
+}
+
+.sticker3{
+top:65%;
+left:-60px;
+}
+
+/* counters */
+
+.hero-stats{
+
+display:flex;
+gap:25px;
+
+margin-top:60px;
+}
+
+.stat{
+
+background:white;
+
+padding:25px;
+
+border-radius:25px;
+
+min-width:170px;
+
+text-align:center;
+
+box-shadow:
+0 20px 40px rgba(0,0,0,.08);
+
+}
+
+.number{
+
+font-size:40px;
+font-weight:800;
+color:var(--blue);
+}
+
+.label{
+
+font-size:14px;
+margin-top:10px;
+}
+
+/* floating stars */
+
+.star{
+
+position:absolute;
+color:var(--yellow);
+font-size:32px;
+animation:floatStar 4s infinite ease-in-out;
+}
+
+.star1{
+top:150px;
+right:15%;
+}
+
+.star2{
+bottom:150px;
+left:10%;
+animation-delay:1s;
+}
+
+.star3{
+top:45%;
+right:5%;
+animation-delay:2s;
+}
+
+@keyframes floatStar{
+
+0%,100%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-20px);
+}
+
+}
+
+/* MOBILE */
+
+@media(max-width:1100px){
+
+.hero-grid{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:52px;
+}
+
+nav{
+display:none;
+}
+
+}
+
+@media(max-width:700px){
+
+.hero{
+padding-top:120px;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+.hero-buttons{
+flex-direction:column;
+}
+
+.hero-stats{
+flex-direction:column;
+}
+
+.logo img{
+height:50px;
+}
+
+}
+/* ===== SECTIONS ===== */
+
+.container{
+width:min(1400px,90%);
+margin:auto;
+}
+
+.about-section,
+.programs-section,
+.subjects-section,
+.timeline-section,
+.clubs-section,
+.training-section,
+.founder-section{
+padding:120px 7%;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:70px;
+}
+
+.section-title span{
+color:#FEBF00;
+font-weight:700;
+letter-spacing:2px;
+}
+
+.section-title h2{
+font-size:52px;
+color:#203480;
+margin:15px 0;
+font-weight:800;
+}
+
+.section-title p{
+max-width:750px;
+margin:auto;
+line-height:1.8;
+color:#666;
+}
+
+/* ABOUT */
+
+.about-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.about-card{
+background:white;
+padding:40px;
+border-radius:30px;
+box-shadow:0 20px 40px rgba(0,0,0,.08);
+transition:.4s;
+}
+
+.about-card:hover{
+transform:translateY(-10px);
+}
+
+.icon{
+font-size:50px;
+margin-bottom:20px;
+}
+
+/* PROGRAMS */
+
+.program-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.program-card{
+background:white;
+padding:40px;
+border-radius:30px;
+box-shadow:0 20px 40px rgba(0,0,0,.08);
+transition:.4s;
+}
+
+.program-card:hover{
+transform:translateY(-10px);
+}
+
+.program-age{
+display:inline-block;
+background:#EFF0FC;
+padding:10px 20px;
+border-radius:50px;
+margin-bottom:15px;
+font-weight:700;
+color:#203480;
+}
+
+/* SUBJECTS */
+
+.subjects-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:20px;
+}
+
+.subjects-grid div{
+background:#203480;
+color:white;
+padding:20px;
+border-radius:20px;
+font-weight:600;
+transition:.3s;
+}
+
+.subjects-grid div:hover{
+transform:translateY(-5px);
+background:#2d4cb8;
+}
+
+/* TIMELINE */
+
+.timeline{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+}
+
+.timeline-item{
+background:white;
+padding:30px;
+border-radius:25px;
+box-shadow:0 20px 40px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.timeline-item:hover{
+transform:translateY(-8px);
+}
+
+.timeline-item span{
+display:block;
+margin-bottom:10px;
+font-weight:700;
+color:#FEBF00;
+}
+
+/* CLUBS */
+
+.clubs-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.club-card{
+background:white;
+padding:40px;
+border-radius:30px;
+box-shadow:0 20px 40px rgba(0,0,0,.08);
+transition:.4s;
+}
+
+.club-card:hover{
+transform:translateY(-10px);
+}
+
+/* TRAINING */
+
+.training-content{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
+.training-image img{
+width:100%;
+border-radius:35px;
+box-shadow:0 30px 60px rgba(0,0,0,.15);
+}
+
+/* FOUNDER */
+
+.founder-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
+.founder-photo img{
+width:100%;
+border-radius:35px;
+box-shadow:0 30px 60px rgba(0,0,0,.15);
+}
+
+.founder-info span{
+color:#FEBF00;
+font-weight:700;
+}
+
+.founder-info h2{
+font-size:52px;
+color:#203480;
+margin:15px 0;
+}
+
+.founder-achievements{
+display:flex;
+gap:20px;
+margin:35px 0;
+}
+
+.founder-achievements div{
+flex:1;
+background:#EFF0FC;
+padding:25px;
+border-radius:20px;
+text-align:center;
+}
+
+.founder-achievements strong{
+display:block;
+font-size:32px;
+color:#203480;
+}
+
+blockquote{
+margin-top:30px;
+padding:25px;
+background:#EFF0FC;
+border-left:5px solid #FEBF00;
+border-radius:20px;
+font-style:italic;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1000px){
+
+.timeline{
+grid-template-columns:1fr 1fr;
+}
+
+.training-content,
+.founder-grid{
+grid-template-columns:1fr;
+}
+
+.section-title h2{
+font-size:40px;
+}
+
+}
+
+@media(max-width:700px){
+
+.timeline{
+grid-template-columns:1fr;
+}
+
+.section-title h2{
+font-size:32px;
+}
+
+.founder-achievements{
+flex-direction:column;
+}
+
+}
+@media(max-width:768px){
+
+.about-section,
+.programs-section,
+.subjects-section,
+.timeline-section,
+.clubs-section,
+.training-section,
+.founder-section,
+.gallery-section,
+.faq-section,
+.reviews,
+.cta-section{
+    padding:60px 20px;
+}
+
+.section-title{
+    margin-bottom:40px;
+}
+
+}
+@media(max-width:768px){
+
+.sticker{
+    transform:scale(.75);
+}
+
+/* 🚀 Лідерство */
+.sticker1{
+    left:-10px;
+    top:-10px;
+}
+
+/* 💰 Фінансова грамотність */
+.sticker2{
+    right:-30px;      /* менше вправо = ближче до центру */
+    bottom:-50px;    /* нижче */
+}
+
+/* 🎓 Профорієнтація */
+.sticker3{
+    left:-5px;       /* трохи правіше */
+    bottom:-10px;
+    top:auto;
+}
+
+}
+
+@media(max-width:768px){
+
+.sticker{
+    animation:floatMobile 4s ease-in-out infinite;
+}
+
+.sticker2{
+    animation-delay:1s;
+}
+
+.sticker3{
+    animation-delay:2s;
+}
+
+}
+
+@keyframes floatMobile{
+
+0%,100%{
+    transform:translateY(0px) scale(.75);
+}
+
+50%{
+    transform:translateY(-12px) scale(.75);
+}
+
+}
+
+}
+.footer-contact{
+    margin-top:25px;
+}
+
+.footer-contact p{
+    margin:12px 0;
+    line-height:1.8;
+}
+
+.footer-contact a{
+    color:white;
+    text-decoration:none;
+}
+
+.footer-contact a:hover{
+    color:#FEBF00;
+}
+@media(max-width:768px){
+
+.hero h1{
+    font-size:38px;
+    line-height:1.15;
+}
+
+.hero p{
+    font-size:16px;
+}
+
+}
+@media(max-width:768px){
+
+.hero{
+    min-height:auto;
+    padding:120px 20px 60px;
+}
+
+}
+.faq-section{
+    padding-bottom:30px !important;
+}
+
+.cta-section{
+    padding-top:20px !important;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<div class="preloader">
+<div class="loader-circle"></div>
+</div>
+
+<header>
+
+<div class="logo">
+
+<img src="https://i.postimg.cc/zvcmP80T/2-s.png" alt="ESLB">
+
+<div class="logo-text">
+European School<br>
+of Leadership & Business
+</div>
+
+</div>
+
+<nav>
+
+<a href="#about">Про школу</a>
+<a href="#programs">Програми</a>
+<a href="#founder">Засновниця</a>
+<a href="#gallery">Галерея</a>
+<a href="#faq">FAQ</a>
+
+</nav>
+
+<a
+class="register-btn"
+href="https://docs.google.com/forms/d/13YwwPrl00HrZ5uom_X8tktNuzpJ-Zo3Pmeh0aZ8SdQY/viewform?edit_requested=true">
+Реєстрація
+</a>
+
+</header>
+
+<section class="hero">
+
+<div class="circle circle1"></div>
+<div class="circle circle2"></div>
+<div class="circle circle3"></div>
+
+<div class="star star1">★</div>
+<div class="star star2">★</div>
+<div class="star star3">★</div>
+
+<div class="hero-grid">
+
+<div class="hero-left">
+
+<div class="badge">
+Мукачево • ESLB • 2026
+</div>
+
+<h1>
+ТУТ ДІТИ СТАЮТЬ
+ВПЕВНЕНИМИ ЛІДЕРАМИ
+</h1>
+
+<p>
+Європейська Школа Лідерства та Бізнесу —
+простір розвитку для дітей та підлітків,
+де поєднуються сучасна освіта,
+лідерство, фінансова грамотність,
+психологія, профорієнтація
+та творчість.
+</p>
+
+<div class="hero-buttons">
+
+<a
+href="#programs"
+class="btn-primary">
+Переглянути програми
+</a>
+
+<a
+href="https://docs.google.com/forms/d/13YwwPrl00HrZ5uom_X8tktNuzpJ-Zo3Pmeh0aZ8SdQY/viewform?edit_requested=true"
+class="btn-secondary">
+Безкоштовне заняття
+</a>
+
+</div>
+
+<div class="hero-stats">
+
+<div class="stat">
+<div class="number" data-target="300">0</div>
+<div class="label">
+Учнів
+</div>
+</div>
+
+<div class="stat">
+<div class="number" data-target="24">0</div>
+<div class="label">
+Місяці навчання
+</div>
+</div>
+
+<div class="stat">
+<div class="number" data-target="10">0</div>
+<div class="label">
+Напрямків розвитку
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<div class="hero-image">
+
+<img src="https://i.postimg.cc/PrCNfxsT/image.jpg">
+
+</div>
+
+<div class="sticker sticker1">
+🚀 Лідерство
+</div>
+
+<div class="sticker sticker2">
+💰 Фінансова грамотність
+</div>
+
+<div class="sticker sticker3">
+🎓 Профорієнтація
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ABOUT -->
+
+<section id="about" class="about-section">
+
+<div class="container">
+
+<div class="section-title">
+<span>ПРО ШКОЛУ</span>
+<h2>Європейська Школа Лідерства та Бізнесу</h2>
+<p>
+Ми допомагаємо дітям та підліткам розкрити потенціал,
+навчитися працювати в команді, мислити як лідери та
+будувати успішне майбутнє вже сьогодні.
+</p>
+</div>
+
+<div class="about-grid">
+
+<div class="about-card">
+<div class="icon">🎯</div>
+<h3>Місія</h3>
+<p>
+Формувати покоління впевнених,
+відповідальних та успішних молодих людей.
+</p>
+</div>
+
+<div class="about-card">
+<div class="icon">🚀</div>
+<h3>Розвиток</h3>
+<p>
+Кожна дитина отримує інструменти
+для особистого та професійного росту.
+</p>
+</div>
+
+<div class="about-card">
+<div class="icon">🤝</div>
+<h3>Команда</h3>
+<p>
+Навчаємо співпраці,
+комунікації та взаємній підтримці.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PROGRAMS -->
+
+<section id="programs" class="programs-section">
+
+<div class="section-title">
+<span>НАВЧАННЯ</span>
+<h2>Дворічна програма розвитку</h2>
+<p>
+Навчання адаптоване до віку дітей
+та поділене на профільні групи.
+</p>
+</div>
+
+<div class="program-grid">
+
+<div class="program-card">
+<div class="program-age">1-2 класи</div>
+<h3>ПКУ</h3>
+<p>
+Перші кроки до розвитку лідерства,
+впевненості та командної роботи.
+</p>
+</div>
+
+<div class="program-card">
+<div class="program-age">3-4 класи</div>
+<h3>ЮБ</h3>
+<p>
+Розвиток відповідальності,
+емоційного інтелекту та комунікації.
+</p>
+</div>
+
+<div class="program-card">
+<div class="program-age">5-6 класи</div>
+<h3>ОБ</h3>
+<p>
+Практичні навички,
+логіка та фінансова грамотність.
+</p>
+</div>
+
+<div class="program-card">
+<div class="program-age">7-8 класи</div>
+<h3>ЛБ</h3>
+<p>
+Лідерство,
+ораторське мистецтво та самореалізація.
+</p>
+</div>
+
+<div class="program-card">
+<div class="program-age">9-11 класи</div>
+<h3>ПП</h3>
+<p>
+Профорієнтація,
+підготовка до майбутньої професії.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- SUBJECTS -->
+
+<section class="subjects-section">
+
+<div class="section-title">
+<span>ЩО ВИВЧАЄМО</span>
+<h2>Основні дисципліни</h2>
+</div>
+
+<div class="subjects-grid">
+
+<div>💰 Фінансова грамотність</div>
+<div>👑 Лідерство</div>
+<div>🧠 Психологія</div>
+<div>🎤 Ораторське мистецтво</div>
+<div>🤝 Командна робота</div>
+<div>🚀 Ментальний розвиток</div>
+<div>🎯 Профорієнтація</div>
+<div>💬 Комунікації</div>
+<div>📐 Математична логіка</div>
+<div>✝ Християнська етика</div>
+
+</div>
+
+</section>
+
+<!-- TIMELINE -->
+
+<section class="timeline-section">
+
+<div class="section-title">
+<span>24 МІСЯЦІ</span>
+<h2>Шлях розвитку учня ESLB</h2>
+</div>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<span>1-3 міс</span>
+<h4>Адаптація</h4>
+<p>Командна взаємодія та знайомство.</p>
+</div>
+
+<div class="timeline-item">
+<span>4-6 міс</span>
+<h4>Лідерство</h4>
+<p>Перші навички управління собою.</p>
+</div>
+
+<div class="timeline-item">
+<span>7-9 міс</span>
+<h4>Комунікація</h4>
+<p>Публічні виступи та дебати.</p>
+</div>
+
+<div class="timeline-item">
+<span>10-12 міс</span>
+<h4>Фінанси</h4>
+<p>Планування бюджету та мислення підприємця.</p>
+</div>
+
+<div class="timeline-item">
+<span>13-15 міс</span>
+<h4>Проєкти</h4>
+<p>Командні бізнес-кейси.</p>
+</div>
+
+<div class="timeline-item">
+<span>16-18 міс</span>
+<h4>Самореалізація</h4>
+<p>Пошук сильних сторін.</p>
+</div>
+
+<div class="timeline-item">
+<span>19-21 міс</span>
+<h4>Професія</h4>
+<p>Кар'єрне планування.</p>
+</div>
+
+<div class="timeline-item">
+<span>22-24 міс</span>
+<h4>Випуск</h4>
+<p>Презентація власного проєкту.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- CLUBS -->
+
+<section class="clubs-section">
+
+<div class="section-title">
+<span>ГУРТКИ</span>
+<h2>Творчий розвиток</h2>
+</div>
+
+<div class="clubs-grid">
+
+<div class="club-card">
+<h3>🎨 Маленька майстерня</h3>
+<p>
+Затишний простір для рукоділля,
+вишивання та творчості.
+</p>
+</div>
+
+<div class="club-card">
+<h3>🎭 Театральне мистецтво</h3>
+<p>
+Розкриття впевненості,
+харизми та сценічної майстерності.
+</p>
+</div>
+
+<div class="club-card">
+<h3>🖌 Сучасне мистецтво</h3>
+<p>
+Креативне самовираження
+через сучасні техніки.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- TRAININGS -->
+
+<section class="training-section">
+
+<div class="training-content">
+
+<div class="section-title left">
+
+<span>ТРЕНІНГИ</span>
+
+<h2>
+Профорієнтація
+для підлітків
+</h2>
+
+<p>
+Авторські заняття від засновниці ESLB
+Зоряни Локес.
+</p>
+
+<p>
+Допомагають визначити сильні сторони,
+знайти власний шлях та зробити усвідомлений
+вибір майбутньої професії.
+</p>
+
+<a href="https://docs.google.com/forms/d/13YwwPrl00HrZ5uom_X8tktNuzpJ-Zo3Pmeh0aZ8SdQY/viewform?edit_requested=true" class="btn-primary" style="margin-top:40px; display:inline-block;">
+Записатись
+</a>
+
+</div>
+
+<div class="training-image">
+
+<img src="https://i.postimg.cc/Y9wt16Sk/486520066-1072997068179033-8158532232535153533-n.jpg">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOUNDER -->
+
+<section id="founder" class="founder-section">
+
+<div class="founder-grid">
+
+<div class="founder-photo">
+
+<img src="https://i.postimg.cc/yYMtJf51/5447195928348970940.jpg">
+
+</div>
+
+<div class="founder-info">
+
+<span>ЗАСНОВНИЦЯ ESLB</span>
+
+<h2>Зоряна Локес</h2>
+
+<p>
+Власниця та засновниця
+Європейської Школи Лідерства та Бізнесу.
+</p>
+
+<p>
+Авторка навчальних програм,
+тренерка з профорієнтації та розвитку
+лідерських якостей у дітей та підлітків.
+</p>
+
+<div class="founder-achievements">
+
+<div>
+<strong>10+</strong>
+<span>років досвіду</span>
+</div>
+
+<div>
+<strong>300+</strong>
+<span>учнів</span>
+</div>
+
+<div>
+<strong>24</strong>
+<span>місяці розвитку</span>
+</div>
+
+</div>
+
+<blockquote>
+"Наша мета — не просто навчати,
+а допомагати дітям відкривати
+власний потенціал."
+</blockquote>
+
+</div>
+
+</div>
+
+</section>
+<!-- GALLERY -->
+
+<section id="gallery" class="gallery-section">
+
+<div class="section-title">
+<span>ГАЛЕРЕЯ</span>
+<h2>Життя ESLB</h2>
+<p>
+Навчання, творчість, лідерство та дружба — усе це у яскравих моментах життя ESLB.
+</p>
+</div>
+
+<div class="gallery-grid">
+
+<img src="https://i.postimg.cc/1Xw6vc0Q/IMG-3412.jpg">
+<img src="https://i.postimg.cc/MHSXpkRx/IMG-2750.jpg">
+<img src="https://i.postimg.cc/vB15VdcM/5472207343979718756.jpg">
+<img src="https://i.postimg.cc/hGYdg3MH/IMG-2781.jpg">
+<img src="https://i.postimg.cc/vTFxxgJL/IMG-3332.jpg">
+<img src="https://i.postimg.cc/WbVJ2Z6Z/IMG-9068.avif">
+
+</div>
+
+</section>
+
+<!-- REVIEWS -->
+
+<section class="reviews">
+
+<div class="section-title">
+<span>ВІДГУКИ</span>
+<h2>Що говорять батьки</h2>
+</div>
+
+<div class="review-slider">
+
+<div class="review active">
+<p>
+"Дитина із задоволенням відвідує заняття.
+За декілька місяців стала впевненішою та активнішою."
+</p>
+<h4>Олена, мама учениці</h4>
+</div>
+
+<div class="review">
+<p>
+"Чудове поєднання розвитку,
+лідерства та творчості."
+</p>
+<h4>Іван, батько учня</h4>
+</div>
+
+<div class="review">
+<p>
+"Найкраще місце для підлітків у Мукачеві."
+</p>
+<h4>Марія, мама учня</h4>
+</div>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section id="faq" class="faq-section">
+
+<div class="section-title">
+<span>FAQ</span>
+<h2>Поширені запитання</h2>
+</div>
+
+<div class="faq-container">
+
+<div class="faq-item">
+
+<button class="faq-question">
+Скільки триває навчання?
+</button>
+
+<div class="faq-answer">
+Дворічна програма розвитку учнів.
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+Для якого віку підходить ESLB?
+</button>
+
+<div class="faq-answer">
+Для учнів від 1 до 11 класу.
+</div>
+
+</div>
+
+<div class="faq-item">
+
+<button class="faq-question">
+Чи можна спробувати заняття?
+</button>
+
+<div class="faq-answer">
+Так, доступне безкоштовне пробне заняття.
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta-section">
+
+<div class="cta-box">
+
+<h2>
+ТВІЙ СТАРТ ТУТ!
+</h2>
+
+<p>
+Запрошуємо вашу дитину
+на безкоштовне пробне заняття.
+</p>
+
+<a
+href="https://docs.google.com/forms/d/13YwwPrl00HrZ5uom_X8tktNuzpJ-Zo3Pmeh0aZ8SdQY/viewform?edit_requested=true"
+class="cta-btn">
+
+Зареєструватися
+
+</a>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-content">
+
+<img
+src="https://i.postimg.cc/v8t5xXmc/3-s-1.png"
+class="footer-logo">
+
+<h3>
+Європейська Школа Лідерства та Бізнесу
+</h3>
+
+<div class="footer-contact">
+
+<p>
+📍 Вул. Валенберга, 38А<br>
+Мукачево, Україна, 86700
+</p>
+
+<p>
+📞 <a href="tel:+380501332610">
++380 50 133 2610
+</a>
+</p>
+
+<p>
+✉️ <a href="mailto:eslb.mukachevo@gmail.com">
+eslb.mukachevo@gmail.com
+</a>
+</p>
+
+</div>
+
+<p class="copyright">
+© 2026 ESLB
+</p>
+
+</div>
+
+</footer>
+
+<style>
+
+/* GALLERY */
+
+.gallery-section{
+padding:120px 7%;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+
+.gallery-grid img{
+width:100%;
+height:320px;
+object-fit:cover;
+border-radius:25px;
+transition:.5s;
+cursor:pointer;
+}
+
+.gallery-grid img:hover{
+transform:scale(1.05);
+}
+
+/* REVIEWS */
+
+.reviews{
+padding:120px 7%;
+background:#EFF0FC;
+}
+
+.review-slider{
+max-width:900px;
+margin:auto;
+}
+
+.review{
+display:none;
+background:white;
+padding:50px;
+border-radius:30px;
+box-shadow:0 20px 40px rgba(0,0,0,.08);
+}
+
+.review.active{
+display:block;
+}
+
+.review p{
+font-size:22px;
+line-height:1.8;
+}
+
+.review h4{
+margin-top:20px;
+color:#203480;
+}
+
+/* FAQ */
+
+.faq-section{
+padding:120px 7%;
+}
+
+.faq-container{
+max-width:900px;
+margin:auto;
+}
+
+.faq-item{
+margin-bottom:20px;
+}
+
+.faq-question{
+
+width:100%;
+
+padding:25px;
+
+border:none;
+
+cursor:pointer;
+
+font-size:18px;
+
+font-weight:700;
+
+background:#203480;
+
+color:white;
+
+border-radius:20px;
+
+text-align:left;
+}
+
+.faq-answer{
+
+display:none;
+
+padding:25px;
+
+background:#EFF0FC;
+
+border-radius:0 0 20px 20px;
+}
+
+/* CTA */
+
+.cta-section{
+    padding-top:20px;
+    padding-bottom:80px;
+    padding-left:7%;
+    padding-right:7%;
+}
+
+.cta-box{
+
+background:
+linear-gradient(
+135deg,
+#203480,
+#3047a0
+);
+
+padding:80px;
+
+border-radius:40px;
+
+text-align:center;
+
+color:white;
+}
+
+.cta-box h2{
+font-size:60px;
+}
+
+.cta-box p{
+margin:25px 0;
+font-size:20px;
+}
+
+.cta-btn{
+
+display:inline-block;
+
+padding:20px 40px;
+
+background:#FEBF00;
+
+color:black;
+
+font-weight:700;
+
+text-decoration:none;
+
+border-radius:100px;
+}
+
+/* FOOTER */
+
+footer{
+background:#10152f;
+padding:80px 7%;
+color:white;
+text-align:center;
+}
+
+.footer-logo{
+width:120px;
+margin-bottom:20px;
+}
+
+@media(max-width:900px){
+
+.gallery-grid{
+grid-template-columns:1fr;
+}
+
+.cta-box h2{
+font-size:40px;
+}
+
+}
+
+.founder-section{
+    padding-bottom:40px;
+}
+
+.gallery-section{
+    padding-top:40px;
+}
+
+@media(max-width:768px){
+
+.cta-box{
+    padding:50px 25px;
+    text-align:center;
+}
+
+.cta-box h2{
+    font-size:34px;
+}
+
+.cta-box p{
+    margin:20px auto;
+    text-align:center;
+}
+
+.cta-btn{
+    display:inline-block;
+    margin:0 auto;
+}
+
+}
+
+</style>
+
+<script>
+
+/* PRELOADER */
+
+window.addEventListener('load',()=>{
+
+document.querySelector('.preloader').style.opacity='0';
+
+setTimeout(()=>{
+document.querySelector('.preloader').style.display='none';
+},500);
+
+});
+
+/* COUNTERS */
+
+const counters=document.querySelectorAll('.number');
+
+counters.forEach(counter=>{
+
+let target=+counter.dataset.target;
+
+let count=0;
+
+let speed=target/80;
+
+function update(){
+
+count+=speed;
+
+if(count<target){
+
+counter.innerText=Math.floor(count);
+
+requestAnimationFrame(update);
+
+}
+else{
+
+counter.innerText=target;
+
+}
+
+}
+
+update();
+
+});
+
+/* FAQ */
+
+document.querySelectorAll('.faq-question')
+.forEach(btn=>{
+
+btn.addEventListener('click',()=>{
+
+const answer=btn.nextElementSibling;
+
+answer.style.display=
+answer.style.display==="block"
+?
+"none"
+:
+"block";
+
+});
+
+});
+
+/* REVIEWS */
+
+let reviews=document.querySelectorAll('.review');
+
+let current=0;
+
+setInterval(()=>{
+
+reviews[current].classList.remove('active');
+
+current++;
+
+if(current>=reviews.length){
+current=0;
+}
+
+reviews[current].classList.add('active');
+
+},5000);
+
+/* GSAP */
+
+gsap.from(".hero-left",{
+
+y:100,
+opacity:0,
+duration:1.3
+
+});
+
+gsap.from(".hero-right",{
+
+x:100,
+opacity:0,
+duration:1.3
+
+});
+
+/* PARALLAX */
+
+window.addEventListener('mousemove',(e)=>{
+
+document.querySelectorAll('.sticker')
+.forEach((item,index)=>{
+
+let speed=(index+1)*0.015;
+
+item.style.transform=
+`translate(
+${e.clientX*speed}px,
+${e.clientY*speed}px
+)`;
+
+});
+
+});
+
+</script>
+
+</body>
+</html>
